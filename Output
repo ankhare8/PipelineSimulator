@@ -1,0 +1,1288 @@
+(12) ['sb $2, 0($8)', 'lb $10, -4($8)', 'add $3, $4, $3', 'add $7, $9, $6', 'add $9, $9, $2', 'lb $24, 0($8)', 'lb $17, 16($10)', 'sub $8, $3, $2', 'nop $0, $0, $0', 'nop $0, $0, $0', 'nop $0, $0, $0', 'nop $0, $0, $0']
+--------------Clock Cycle 1--------------
+___IF_ID_Write____
+Instruction: A1020000
+IncrPC: 4
+
+___IF_ID_Read____
+Control = 000000000
+
+___ID_EX_Write____
+Control = 000000000
+
+___ID_EX_Read____
+Control = 000000000
+
+___EX_Mem_Write____
+Control = 000000000
+
+___EX_Mem_Read____
+Control = 000000000
+
+___Mem_WB_Write____
+Control = 000000000
+
+___Mem_WB_Read____
+Control = 000000000
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x103
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x107
+Reg $8 = x108
+Reg $9 = x109
+Reg $10 = x10A
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x118
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+--------------Clock Cycle 2--------------
+___IF_ID_Write____
+Instruction: 810AFFFC
+IncrPC: 8
+
+___IF_ID_Read____
+Instruction: A1020000
+IncrPC: 4
+
+___ID_EX_Write____
+Control:
+    RegDst: 0
+    ALUSrc: 1
+    ALUOp: 0
+    MemRead: 0
+    MemWrite: 1
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 0
+IncrPC: 4
+ReadReg1Value: 108
+ReadReg2Value: 102
+SEOffset: 0
+WriteReg_20_16: 2
+WriteReg_15_11: 0
+Function: 0
+
+___ID_EX_Read____
+Control = 000000000
+
+___EX_Mem_Write____
+Control = 000000000
+
+___EX_Mem_Read____
+Control = 000000000
+
+___Mem_WB_Write____
+Control = 000000000
+
+___Mem_WB_Read____
+Control = 000000000
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x103
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x107
+Reg $8 = x108
+Reg $9 = x109
+Reg $10 = x10A
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x118
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+
+--------------Clock Cycle 3--------------
+___IF_ID_Write____
+Instruction: 831820
+IncrPC: C
+
+___IF_ID_Read____
+Instruction: 810AFFFC
+IncrPC: 8
+
+___ID_EX_Write____
+Control:
+    RegDst: 0
+    ALUSrc: 1
+    ALUOp: 0
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+IncrPC: 8
+ReadReg1Value: 108
+ReadReg2Value: 10A
+SEOffset: -4
+WriteReg_20_16: A
+WriteReg_15_11: 1F
+Function: 3C
+
+___ID_EX_Read____
+Control:
+    RegDst: 0
+    ALUSrc: 1
+    ALUOp: 0
+    MemRead: 0
+    MemWrite: 1
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 0
+IncrPC: 4
+ReadReg1Value: 108
+ReadReg2Value: 102
+SEOffset: 0
+WriteReg_20_16: 2
+WriteReg_15_11: 0
+Function: 0
+
+___EX_Mem_Write____
+Control:
+    MemRead: 0
+    MemWrite: 1
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 0
+CalcBTA: 0
+Zero: 0
+ALUResult: 108
+SWValue: 102
+WriteRegNum: 2
+
+___EX_Mem_Read____
+Control = 000000000
+
+___Mem_WB_Write____
+Control = 000000000
+
+___Mem_WB_Read____
+Control = 000000000
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x103
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x107
+Reg $8 = x108
+Reg $9 = x109
+Reg $10 = x10A
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x118
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+
+--------------Clock Cycle 4--------------
+___IF_ID_Write____
+Instruction: 1263820
+IncrPC: 10
+
+___IF_ID_Read____
+Instruction: 831820
+IncrPC: C
+
+___ID_EX_Write____
+Control:
+    RegDst: 1
+    ALUSrc: 0
+    ALUOp: A
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+IncrPC: C
+ReadReg1Value: 104
+ReadReg2Value: 103
+SEOffset: 1820
+WriteReg_20_16: 3
+WriteReg_15_11: 3
+Function: 20
+
+___ID_EX_Read____
+Control:
+    RegDst: 0
+    ALUSrc: 1
+    ALUOp: 0
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+IncrPC: 8
+ReadReg1Value: 108
+ReadReg2Value: 10A
+SEOffset: -4
+WriteReg_20_16: A
+WriteReg_15_11: 1F
+Function: 3C
+
+___EX_Mem_Write____
+Control:
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 104
+SWValue: 10A
+WriteRegNum: A
+
+___EX_Mem_Read____
+Control:
+    MemRead: 0
+    MemWrite: 1
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 0
+CalcBTA: 0
+Zero: 0
+ALUResult: 108
+SWValue: 102
+WriteRegNum: 2
+
+___Mem_WB_Write____
+Control:
+    MemToReg: 0
+    RegWrite: 0
+LWDataValue: 0
+ALUResult: 108
+WriteRegNum: 2
+
+___Mem_WB_Read____
+Control = 000000000
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x103
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x107
+Reg $8 = x108
+Reg $9 = x109
+Reg $10 = x10A
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x118
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+
+--------------Clock Cycle 5--------------
+___IF_ID_Write____
+Instruction: 1224820
+IncrPC: 14
+
+___IF_ID_Read____
+Instruction: 1263820
+IncrPC: 10
+
+___ID_EX_Write____
+Control:
+    RegDst: 1
+    ALUSrc: 0
+    ALUOp: A
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+IncrPC: 10
+ReadReg1Value: 109
+ReadReg2Value: 106
+SEOffset: 3820
+WriteReg_20_16: 6
+WriteReg_15_11: 7
+Function: 20
+
+___ID_EX_Read____
+Control:
+    RegDst: 1
+    ALUSrc: 0
+    ALUOp: A
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+IncrPC: C
+ReadReg1Value: 104
+ReadReg2Value: 103
+SEOffset: 1820
+WriteReg_20_16: 3
+WriteReg_15_11: 3
+Function: 20
+
+___EX_Mem_Write____
+Control:
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 207
+SWValue: 103
+WriteRegNum: 3
+
+___EX_Mem_Read____
+Control:
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 104
+SWValue: 10A
+WriteRegNum: A
+
+___Mem_WB_Write____
+Control:
+    MemToReg: 1
+    RegWrite: 1
+LWDataValue: 104
+ALUResult: 104
+WriteRegNum: A
+
+___Mem_WB_Read____
+Control:
+    MemToReg: 0
+    RegWrite: 0
+LWDataValue: 0
+ALUResult: 108
+WriteRegNum: 2
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x103
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x107
+Reg $8 = x108
+Reg $9 = x109
+Reg $10 = x10A
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x118
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+
+--------------Clock Cycle 6--------------
+___IF_ID_Write____
+Instruction: 81180000
+IncrPC: 18
+
+___IF_ID_Read____
+Instruction: 1224820
+IncrPC: 14
+
+___ID_EX_Write____
+Control:
+    RegDst: 1
+    ALUSrc: 0
+    ALUOp: A
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+IncrPC: 14
+ReadReg1Value: 109
+ReadReg2Value: 102
+SEOffset: 4820
+WriteReg_20_16: 2
+WriteReg_15_11: 9
+Function: 20
+
+___ID_EX_Read____
+Control:
+    RegDst: 1
+    ALUSrc: 0
+    ALUOp: A
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+IncrPC: 10
+ReadReg1Value: 109
+ReadReg2Value: 106
+SEOffset: 3820
+WriteReg_20_16: 6
+WriteReg_15_11: 7
+Function: 20
+
+___EX_Mem_Write____
+Control:
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 20F
+SWValue: 106
+WriteRegNum: 7
+
+___EX_Mem_Read____
+Control:
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 207
+SWValue: 103
+WriteRegNum: 3
+
+___Mem_WB_Write____
+Control:
+    MemToReg: 0
+    RegWrite: 1
+LWDataValue: 104
+ALUResult: 207
+WriteRegNum: 3
+
+___Mem_WB_Read____
+Control:
+    MemToReg: 1
+    RegWrite: 1
+LWDataValue: 104
+ALUResult: 104
+WriteRegNum: A
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x103
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x107
+Reg $8 = x108
+Reg $9 = x109
+Reg $10 = x104
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x118
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+
+--------------Clock Cycle 7--------------
+___IF_ID_Write____
+Instruction: 81510010
+IncrPC: 1C
+
+___IF_ID_Read____
+Instruction: 81180000
+IncrPC: 18
+
+___ID_EX_Write____
+Control:
+    RegDst: 0
+    ALUSrc: 1
+    ALUOp: 0
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+IncrPC: 18
+ReadReg1Value: 108
+ReadReg2Value: 118
+SEOffset: 0
+WriteReg_20_16: 18
+WriteReg_15_11: 0
+Function: 0
+
+___ID_EX_Read____
+Control:
+    RegDst: 1
+    ALUSrc: 0
+    ALUOp: A
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+IncrPC: 14
+ReadReg1Value: 109
+ReadReg2Value: 102
+SEOffset: 4820
+WriteReg_20_16: 2
+WriteReg_15_11: 9
+Function: 20
+
+___EX_Mem_Write____
+Control:
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 20B
+SWValue: 102
+WriteRegNum: 9
+
+___EX_Mem_Read____
+Control:
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 20F
+SWValue: 106
+WriteRegNum: 7
+
+___Mem_WB_Write____
+Control:
+    MemToReg: 0
+    RegWrite: 1
+LWDataValue: 104
+ALUResult: 20F
+WriteRegNum: 7
+
+___Mem_WB_Read____
+Control:
+    MemToReg: 0
+    RegWrite: 1
+LWDataValue: 104
+ALUResult: 207
+WriteRegNum: 3
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x207
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x107
+Reg $8 = x108
+Reg $9 = x109
+Reg $10 = x104
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x118
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+
+--------------Clock Cycle 8--------------
+___IF_ID_Write____
+Instruction: 624022
+IncrPC: 20
+
+___IF_ID_Read____
+Instruction: 81510010
+IncrPC: 1C
+
+___ID_EX_Write____
+Control:
+    RegDst: 0
+    ALUSrc: 1
+    ALUOp: 0
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+IncrPC: 1C
+ReadReg1Value: 104
+ReadReg2Value: 111
+SEOffset: 10
+WriteReg_20_16: 11
+WriteReg_15_11: 0
+Function: 10
+
+___ID_EX_Read____
+Control:
+    RegDst: 0
+    ALUSrc: 1
+    ALUOp: 0
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+IncrPC: 18
+ReadReg1Value: 108
+ReadReg2Value: 118
+SEOffset: 0
+WriteReg_20_16: 18
+WriteReg_15_11: 0
+Function: 0
+
+___EX_Mem_Write____
+Control:
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 108
+SWValue: 118
+WriteRegNum: 18
+
+___EX_Mem_Read____
+Control:
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 20B
+SWValue: 102
+WriteRegNum: 9
+
+___Mem_WB_Write____
+Control:
+    MemToReg: 0
+    RegWrite: 1
+LWDataValue: 104
+ALUResult: 20B
+WriteRegNum: 9
+
+___Mem_WB_Read____
+Control:
+    MemToReg: 0
+    RegWrite: 1
+LWDataValue: 104
+ALUResult: 20F
+WriteRegNum: 7
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x207
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x20F
+Reg $8 = x108
+Reg $9 = x109
+Reg $10 = x104
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x118
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+
+--------------Clock Cycle 9--------------
+___IF_ID_Write____
+Instruction: 0
+IncrPC: 24
+
+___IF_ID_Read____
+Instruction: 624022
+IncrPC: 20
+
+___ID_EX_Write____
+Control:
+    RegDst: 1
+    ALUSrc: 0
+    ALUOp: A
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+IncrPC: 20
+ReadReg1Value: 207
+ReadReg2Value: 102
+SEOffset: 4022
+WriteReg_20_16: 2
+WriteReg_15_11: 8
+Function: 22
+
+___ID_EX_Read____
+Control:
+    RegDst: 0
+    ALUSrc: 1
+    ALUOp: 0
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+IncrPC: 1C
+ReadReg1Value: 104
+ReadReg2Value: 111
+SEOffset: 10
+WriteReg_20_16: 11
+WriteReg_15_11: 0
+Function: 10
+
+___EX_Mem_Write____
+Control:
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 114
+SWValue: 111
+WriteRegNum: 11
+
+___EX_Mem_Read____
+Control:
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 108
+SWValue: 118
+WriteRegNum: 18
+
+___Mem_WB_Write____
+Control:
+    MemToReg: 1
+    RegWrite: 1
+LWDataValue: 102
+ALUResult: 108
+WriteRegNum: 18
+
+___Mem_WB_Read____
+Control:
+    MemToReg: 0
+    RegWrite: 1
+LWDataValue: 104
+ALUResult: 20B
+WriteRegNum: 9
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x207
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x20F
+Reg $8 = x108
+Reg $9 = x20B
+Reg $10 = x104
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x118
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+
+--------------Clock Cycle 10--------------
+___IF_ID_Write____
+Instruction: 0
+IncrPC: 28
+
+___IF_ID_Read____
+Instruction: 0
+IncrPC: 24
+
+___ID_EX_Write____
+Control:
+    RegDst: 0
+    ALUSrc: 0
+    ALUOp: 0
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 0
+IncrPC: 24
+ReadReg1Value: 0
+ReadReg2Value: 0
+SEOffset: 0
+WriteReg_20_16: 0
+WriteReg_15_11: 0
+Function: 0
+
+___ID_EX_Read____
+Control:
+    RegDst: 1
+    ALUSrc: 0
+    ALUOp: A
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+IncrPC: 20
+ReadReg1Value: 207
+ReadReg2Value: 102
+SEOffset: 4022
+WriteReg_20_16: 2
+WriteReg_15_11: 8
+Function: 22
+
+___EX_Mem_Write____
+Control:
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 105
+SWValue: 102
+WriteRegNum: 8
+
+___EX_Mem_Read____
+Control:
+    MemRead: 1
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 1
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 114
+SWValue: 111
+WriteRegNum: 11
+
+___Mem_WB_Write____
+Control:
+    MemToReg: 1
+    RegWrite: 1
+LWDataValue: 114
+ALUResult: 114
+WriteRegNum: 11
+
+___Mem_WB_Read____
+Control:
+    MemToReg: 1
+    RegWrite: 1
+LWDataValue: 102
+ALUResult: 108
+WriteRegNum: 18
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x207
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x20F
+Reg $8 = x108
+Reg $9 = x20B
+Reg $10 = x104
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x111
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x102
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+--------------Clock Cycle 11--------------
+___IF_ID_Write____
+Instruction: 0
+IncrPC: 2C
+
+___IF_ID_Read____
+Instruction: 0
+IncrPC: 28
+
+___ID_EX_Write____
+Control:
+    RegDst: 0
+    ALUSrc: 0
+    ALUOp: 0
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 0
+IncrPC: 28
+ReadReg1Value: 0
+ReadReg2Value: 0
+SEOffset: 0
+WriteReg_20_16: 0
+WriteReg_15_11: 0
+Function: 0
+
+___ID_EX_Read____
+Control:
+    RegDst: 0
+    ALUSrc: 0
+    ALUOp: 0
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 0
+IncrPC: 24
+ReadReg1Value: 0
+ReadReg2Value: 0
+SEOffset: 0
+WriteReg_20_16: 0
+WriteReg_15_11: 0
+Function: 0
+
+___EX_Mem_Write____
+Control = 000000000
+
+___EX_Mem_Read____
+Control:
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 1
+CalcBTA: 0
+Zero: 0
+ALUResult: 105
+SWValue: 102
+WriteRegNum: 8
+
+___Mem_WB_Write____
+Control:
+    MemToReg: 0
+    RegWrite: 1
+LWDataValue: 114
+ALUResult: 105
+WriteRegNum: 8
+
+___Mem_WB_Read____
+Control:
+    MemToReg: 1
+    RegWrite: 1
+LWDataValue: 114
+ALUResult: 114
+WriteRegNum: 11
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x207
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x20F
+Reg $8 = x108
+Reg $9 = x20B
+Reg $10 = x104
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x114
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x102
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
+--------------Clock Cycle 12--------------
+___IF_ID_Write____
+Instruction: 0
+IncrPC: 30
+
+___IF_ID_Read____
+Instruction: 0
+IncrPC: 2C
+
+___ID_EX_Write____
+Control:
+    RegDst: 0
+    ALUSrc: 0
+    ALUOp: 0
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 0
+IncrPC: 2C
+ReadReg1Value: 0
+ReadReg2Value: 0
+SEOffset: 0
+WriteReg_20_16: 0
+WriteReg_15_11: 0
+Function: 0
+
+___ID_EX_Read____
+Control:
+    RegDst: 0
+    ALUSrc: 0
+    ALUOp: 0
+    MemRead: 0
+    MemWrite: 0
+    Branch: 0
+    MemToReg: 0
+    RegWrite: 0
+IncrPC: 28
+ReadReg1Value: 0
+ReadReg2Value: 0
+SEOffset: 0
+WriteReg_20_16: 0
+WriteReg_15_11: 0
+Function: 0
+
+___EX_Mem_Write____
+Control = 000000000
+
+___EX_Mem_Read____
+Control = 000000000
+
+___Mem_WB_Write____
+Control:
+    MemToReg: 0
+    RegWrite: 0
+LWDataValue: 114
+ALUResult: 0
+WriteRegNum: 0
+
+___Mem_WB_Read____
+Control:
+    MemToReg: 0
+    RegWrite: 1
+LWDataValue: 114
+ALUResult: 105
+WriteRegNum: 8
+
+___User Registers____
+Reg $0 = x0
+Reg $1 = x101
+Reg $2 = x102
+Reg $3 = x207
+Reg $4 = x104
+Reg $5 = x105
+Reg $6 = x106
+Reg $7 = x20F
+Reg $8 = x105
+Reg $9 = x20B
+Reg $10 = x104
+Reg $11 = x10B
+Reg $12 = x10C
+Reg $13 = x10D
+Reg $14 = x10E
+Reg $15 = x10F
+Reg $16 = x110
+Reg $17 = x114
+Reg $18 = x112
+Reg $19 = x113
+Reg $20 = x114
+Reg $21 = x115
+Reg $22 = x116
+Reg $23 = x117
+Reg $24 = x102
+Reg $25 = x119
+Reg $26 = x11A
+Reg $27 = x11B
+Reg $28 = x11C
+Reg $29 = x11D
+Reg $30 = x11E
+Reg $31 = x11F
